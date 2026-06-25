@@ -27,6 +27,8 @@
 
 wmd_tinyMD is the simple low-level color manager for straightforward use cases. It operates in both RGB and MD (Material Design) indexed color space, providing consistency and design flexibility for your 4D projects. Localized in EN, FR, ES, DE.
 
+SOURCE available here [**wmd_tinyMD.4dbase**](https://github.com/protee/wmd_tinyMD.4dbase)
+
 ---
 
 ## Key Features
@@ -48,10 +50,10 @@ The system features a powerful color editor that intelligently handles complex c
 - New `wmd_md_` methods for Color and Colors
 - Miscellaneous utilities
 
-### Indexed Colors Advantages
+### MD and Indexed Colors Advantages
 - Stroke and Fill combined in one long integer
 - Limited choice that adds taste to your UI
-- Display & copy colors in multiple formats: `[0x0…]`, color names, and more
+- Orthogonality allows color's calculations
 ---
 
 ## Installation & Dependencies
